@@ -114,7 +114,7 @@ Find out more in the next section about the [user identification concept](user-i
 
 #### ELSTER Connector
 
-The ELSTER connector is implemented to facilitate the formal registration of a vendor on the KulturPass DE marketplace. To validate the business (or the vendor, respectively) the cultural provider needs to provide a digital certificate that is otherwise used to submit tax declarations (so called _Organisationszertifikat_). Contrary to personal certificates, they are not linked to individual persons, but to an organization under tax law ( corporate entity, company, association).
+The ELSTER connector is implemented to facilitate the formal registration of a vendor on the KulturPass DE marketplace. To validate the business (or the vendor, respectively) the cultural provider needs to provide a digital certificate that is otherwise used to submit tax declarations (so called _Organisationszertifikat_). Contrary to personal certificates, they are not linked to individual persons, but to an organization under tax law (corporate entity, company, association).
 
 Back to [Technical Documentation](README.md)
 
