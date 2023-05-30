@@ -2,9 +2,12 @@
     <img src="https://github.com/kulturpass-de/.github/blob/main/images/kulturpass-de-logo.jpg?raw=true">
 <p>
 
-# Project documentation _KulturPass DE_ 
-
-[![REUSE status](https://api.reuse.software/badge/github.com/kulturpass-de/kulturpass-documentation)](https://api.reuse.software/info/github.com/kulturpass-de/kulturpass-documentation)
+<h1 align="center">KulturPass: Documentation</h1>
+<p align="center">
+<a href="https://github.com/kulturpass-de/kulturpass-documentation/issues" title="Issues"><img src="https://img.shields.io/github/issues/kulturpass-de/kulturpass-documentation?style=flat"></a>
+<a href="https://github.com/kulturpass-de/kulturpass-documentation/blob/HEAD/LICENSE" title="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat"></a>
+<a href="https://api.reuse.software/info/github.com/kulturpass-de/kulturpass-documentation" title="REUSE status"><img src="https://api.reuse.software/badge/github.com/kulturpass-de/kulturpass-documentation"></a>
+</p>
 
 This place bundles the currently available documentation for the German _KulturPass DE_ project. 
 
