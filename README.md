@@ -1,6 +1,8 @@
-# Project documentation _KulturPass DE_ 
+<p align="center">
+    <img src="https://github.com/kulturpass-de/.github/blob/main/images/kulturpass-de-logo.jpg?raw=true">
+<p>
 
-![Kulturpass Logo](images/KP_Logo_green_400px.jpg)
+# Project documentation _KulturPass DE_ 
 
 [![REUSE status](https://api.reuse.software/badge/github.com/kulturpass-de/kulturpass-documentation)](https://api.reuse.software/info/github.com/kulturpass-de/kulturpass-documentation)
 
