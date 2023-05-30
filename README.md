@@ -2,7 +2,7 @@
     <img src="https://github.com/kulturpass-de/.github/blob/main/images/kulturpass-de-logo.jpg?raw=true">
 <p>
 
-<h1 align="center">KulturPass: Project documentation</h1>
+<h1 align="center">KulturPass: Documentation</h1>
 <p align="center">
 <a href="https://github.com/kulturpass-de/kulturpass-documentation/issues" title="Issues"><img src="https://img.shields.io/github/issues/kulturpass-de/kulturpass-documentation?style=flat"></a>
 <a href="https://github.com/kulturpass-de/kulturpass-documentation/blob/HEAD/LICENSE" title="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat"></a>
