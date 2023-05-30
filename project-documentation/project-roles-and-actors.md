@@ -17,7 +17,7 @@ The solution design defines the following responsibilities and capabilities for 
 - Download the KulturPass DE mobile app from the Apple App Store or from the Google Play Store
 - Identify and register on the marketplace
 - Retrieve the government-funded personal credit
-- Browse, search, and filter the offers of the vendors leveraging the KuluturPass DE mobile app
+- Browse, search, and filter the offers of the vendors leveraging the KuluturPass mobile app
 - Reserve cultural goods, services, tickets for events etc. based on the available credit line[^2]
 - Return unused reservations, goods, tickets etc. accroding to the terms and conditions of the vendor
 [^1]: We may provide a prepared list of products for a given product category that can be utilized by the vendor. But this prepared list does not limit the list of products - the vendor is free to add individual products via manual input, CSV upload or API.
