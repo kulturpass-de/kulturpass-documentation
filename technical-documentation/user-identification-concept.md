@@ -63,7 +63,7 @@ The following documents are eID-compatible:
 |---|---|---|---|
 | German ID card | (neuer) Personalausweis (nPA) | German citizens (DE: Staatsbürger) | [example ⎆](https://de.wikipedia.org/wiki/Personalausweis_(Deutschland)#/media/Datei:Personalausweis_(2021).png) |
 | electronic residence permit | elektronischer Aufenthaltstitel | non-EU/EEA citizens, refugees, etc. | [example ⎆](https://de.wikipedia.org/wiki/Elektronischer_Aufenthaltstitel#/media/Datei:Aufenthaltserlaubnis-Beschaeftigung.JPG) |
-| eID card | eID-Karte | EU/EEA citizens | [example ⎆](https://de.wikipedia.org/wiki/EID-Karte-Gesetz#/media/Datei:EID-karte.png) |
+| eID card | eID-Karte | EU/EEA citizens | [example ⎆](https://de.wikipedia.org/wiki/EID-Karte#/media/Datei:EID-karte.png) |
 
 The eID card was introduced in 2019 as a consequence of the online access act (DE: Onlinezugangsgesetz).
 
