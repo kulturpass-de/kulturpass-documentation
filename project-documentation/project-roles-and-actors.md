@@ -14,7 +14,7 @@ The solution design defines the following responsibilities and capabilities for 
 
 ### Consumer
 
-- Download the KulturPass DE mobile app from the Apple Appstore or from the Google Playstore
+- Download the KulturPass DE mobile app from the Apple App Store or from the Google Play Store
 - Identify and register on the marketplace
 - Retrieve the government-funded personal credit
 - Browse, search, and filter the offers of the vendors leveraging the KuluturPass mobile app
