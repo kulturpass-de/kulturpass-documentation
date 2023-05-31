@@ -1,6 +1,6 @@
-# KulturPass DE - Project Processes and Functions
+# KulturPass - Project Processes and Functions
 
-The KulturPass DE project basically implements a cultural marketplace where the KulturPass app users consume the goods and services.
+The KulturPass project basically implements a cultural marketplace where the KulturPass app users consume the goods and services.
 For the vendors the following processes and functions are relevant on the platform:
 
 - Vendor Onboarding (including the steps: identification, registration, initial shop settings, initial product maintenance, initial offer creation)

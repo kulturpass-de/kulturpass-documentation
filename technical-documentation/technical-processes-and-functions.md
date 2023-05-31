@@ -1,6 +1,6 @@
-# KulturPass DE - Technical Processes and Functions
+# KulturPass - Technical Processes and Functions
 
-The KulturPass DE project implements a cultural marketplace where KulturPass app users consume the goods and services. To get a better picture on how the solution components interact with each other, you may follow the documentation on the [Technical Architecture](technical-architecture-01.md).
+The KulturPass implements a cultural marketplace where KulturPass app users consume the goods and services. To get a better picture on how the solution components interact with each other, you may follow the documentation on the [Technical Architecture](technical-architecture-01.md).
 
 For the vendors the following processes and functions are relevant on the platform:
 

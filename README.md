@@ -9,15 +9,15 @@
 <a href="https://api.reuse.software/info/github.com/kulturpass-de/kulturpass-documentation" title="REUSE status"><img src="https://api.reuse.software/badge/github.com/kulturpass-de/kulturpass-documentation"></a>
 </p>
 
-This place bundles the currently available documentation for the German _KulturPass DE_ project. 
+This place bundles the currently available documentation for the German KulturPass project. 
 
-**_Please note:_** This documentation is subject of change. We expect the documentation will evolve on a daily basis, especially at the beginning of the project. It is our target to provide transparent information and insight for the project, even at an early stage of design and development of the KulturPass project.
+**_Please note:_** This documentation is subject of change. We expect the documentation will evolve on a daily basis, especially at the beginning of the project. It is our target to provide transparent information and insight for the project, even at an early stage of design and development of the KulturPass.
 
 ## About this project
 
 "We want to get young people excited about the wide variety of culture in our country".
 
-The KulturPass project in Germany is implemented by resolution of the German Bundestag and is the responsibility of the Federal Government Commissioner for Culture and the Media (BKM). The main objective of the project is compensation in both ways: On the one hand to support the cultural community in the broadest sense; artists, agencies, stages, and cultural providers, and on the other hand to motivate, encourage, and inspire young interested people to actively discover, experience, and explore culture and art. To achieve this goal, with the KulturPass project we aim to create a "cultural marketplace" with offerings for the youth. Those cultural offers can be found and reserved leveraging a KulturPass app on the smartphone with a monetary budget funded by the German government. 
+The KulturPass in Germany is implemented by resolution of the German Bundestag and is the responsibility of the Federal Government Commissioner for Culture and the Media (BKM). The main objective of the project is compensation in both ways: On the one hand to support the cultural community in the broadest sense; artists, agencies, stages, and cultural providers, and on the other hand to motivate, encourage, and inspire young interested people to actively discover, experience, and explore culture and art. To achieve this goal, with the KulturPass we aim to create a "cultural marketplace" with offerings for the youth. Those cultural offers can be found and reserved leveraging a KulturPass app on the smartphone with a monetary budget funded by the German government. 
 
 ## Who We Are
 
@@ -25,14 +25,14 @@ Driven by the German government, the project is managed by the [foundation "Digi
 
 ## Working Language
 
-Even if the _KulturPass DE_ project will be implemented for the German market, implementation is perfomed by an international team of developers, architects and other expert roles. As we want to act as open and transparent as possible for interested parties in the global developer community who do not speak German, the technical content here comes primarily in English language - especially on coding level. 
+Even if the_KulturPass will be implemented for the German market, implementation is perfomed by an international team of developers, architects and other expert roles. As we want to act as open and transparent as possible for interested parties in the global developer community who do not speak German, the technical content here comes primarily in English language - especially on coding level. 
 
 Obviously, the mobile application itself, its documentation and all end-user facing content will be provided in German. 
 We also try to make major articles of the developer documentation available in German, but we decided to stay on the Lingua Franca of the global developer community making English the leading language for the technial part of the documentation.
 
 ## Credits
 
-Many thanks to all contributors who are actively engaged in the _KulturPass DE_ project. The result and the success of our project relies on the close and open collaboration as well as on the support by these parties.
+Many thanks to all contributors who are actively engaged in the KulturPass project. The result and the success of our project relies on the close and open collaboration as well as on the support by these parties.
 Many partner and service providers added valuable input either on the content side or with dedicated expertise on the business areas and commonly-used processes and interfaces. Thoses partners are crucial for the design and implementation of our solution, so their input is highly appreciated.
 Last but not least, no project could gain that kind of attention and visibility without all the engaged individuals that contribute with feedback, comments, questions, and proposals for enhancements, fixes and additonal options to solve open issues. Many thanks to you, folks!
 
@@ -59,13 +59,13 @@ This repository contains the developer documentation and related content. Please
 
 ![Structure of this Documentation](images/KulturPass-Doku-Struktur-EN.jpg)
 
-The [Project Documentation](project-documentation/README.md) will provide a brief introduction to the KulturPass project. This introduction shall give you an understanding about the "embedding" of the KulturPass DE app. With the given context you might get a better understanding of the actors and roles, the involved parties and the running components in the background. We also address the open source approach for the project in that chapter.
+The [Project Documentation](project-documentation/README.md) will provide a brief introduction to the KulturPass. This introduction shall give you an understanding about the "embedding" of the KulturPass app. With the given context you might get a better understanding of the actors and roles, the involved parties and the running components in the background. We also address the open source approach for the project in that chapter.
 
 Major focus, however, is the [Technical Documentation](technical-documentation/README.md) of our KulturPass app. This chapter provides a deeper insight into the "How to" of the architecture, design, and implementation of the app. You will find real coding, diagrams, test samples, and other artefacts for the KulturPass app here. It is our mission to be as transparent and open as possible during the development process and to gain trust of our valuable community.  
 
 ### Project documentation
 
-For KulturPass DE the scope of the project was jointly agreed between the Federal Government Commissioner for Culture and the Media (_Die Beauftragte der Bundesregierung für Kultur und Medien_), the [foundation _Digitale Chancen_](https://www.digitale-chancen.de/) (which conducts the project operationally) and the implementation contractors including SAP. In our documentation we will give a brief introduction about the scope and objectives, on the different parties and the major roles on the cultural marketplace. This leads directly to the interaction between the parties, to the targeted processes and functions of the KulturPass project. 
+The scope of the project was jointly agreed between the Federal Government Commissioner for Culture and the Media (_Die Beauftragte der Bundesregierung für Kultur und Medien_), the [foundation _Digitale Chancen_](https://www.digitale-chancen.de/) (which conducts the project operationally) and the implementation contractors including SAP. In our documentation we will give a brief introduction about the scope and objectives, on the different parties and the major roles on the cultural marketplace. This leads directly to the interaction between the parties, to the targeted processes and functions of the KulturPass. 
 
 We appreciate any feedback to all elements of this project scope document; questions, hints, remarks, proposals, feedback, and recommendations, even new use cases or feature requests from our community are welcome! We do our best to consolidate, discuss, prioritize and document them in the product review cycles to address your opinions accordingly.
 
@@ -73,14 +73,14 @@ However, in GitHub you will not find information about political, financial or m
 
 The project documentation will be continuously updated in the following documents:
 
-* [KulturPass DE - Project Scope & Objectives](project-documentation/project-objectives.md)
-* [KulturPass DE - Relevant Actors and Roles](project-documentation/project-roles-and-actors.md)
-* [KulturPass DE - Processes for Vendors and Consumers](project-documentation/project-processes-and-functions.md)
-* [KulturPass DE - Open Source Precepts](project-documentation/project-open-source.md)
+* [KulturPass - Project Scope & Objectives](project-documentation/project-objectives.md)
+* [KulturPass - Relevant Actors and Roles](project-documentation/project-roles-and-actors.md)
+* [KulturPass - Processes for Vendors and Consumers](project-documentation/project-processes-and-functions.md)
+* [KulturPass - Open Source Precepts](project-documentation/project-open-source.md)
 
 ### Technical Documentation
 
-Major focus of this GitHub project is the technical documentation for the KulturPass project in Germany. Here we describe the architecture, design and implementation of the consumer component - the KulturPass app. Please understand that it is neither technically possible nor legally permitted to disclose implementation details or internal configurations of the leveraged commercial backend solutions and products, though.
+Major focus of this GitHub project is the technical documentation for the KulturPass in Germany. Here we describe the architecture, design and implementation of the consumer component - the KulturPass app. Please understand that it is neither technically possible nor legally permitted to disclose implementation details or internal configurations of the leveraged commercial backend solutions and products, though.
 
 The below-mentioned technical documents are intended to provide in-depth details for a technical community. We try our best that this documentation represents the most recent state of the architecture, design and implementation. Based on picture given by the _Project Documentation_ (see above) we start with documenting the high-level architecture and the technical components. This architecture and the underlying concepts might change or evolve over time for various reasons (legal or technological dependencies, changing or new requirements, new actors/processes/use cases etc.)
 Since we expect a bunch of abbreviations, we will also create a glossary - see below. 
@@ -89,11 +89,11 @@ Again: We appreciate any feedback to all elements of this project scope document
 
 The technical documentation will be a collection of documents referring to each other and as well referring to documents in the _Project Documentation_ (see above):
 
-* [KulturPass DE - Architecture](technical-documentation/technical-architecture-01.md)
+* [KulturPass - Architecture](technical-documentation/technical-architecture-01.md)
   * [User Identification Concept](technical-documentation/user-identification-concept.md)
   * [User Identification with eID](technical-documentation/user-identification-with-eid.md)
-* [KulturPass DE - Processes and Functions](technical-documentation/technical-processes-and-functions.md)
-* [KulturPass DE - Interface Details](technical-documentation/technical-interfaces.md)
+* [KulturPass - Processes and Functions](technical-documentation/technical-processes-and-functions.md)
+* [KulturPass - Interface Details](technical-documentation/technical-interfaces.md)
 
 ### Glossary
 
