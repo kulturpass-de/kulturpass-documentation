@@ -13,6 +13,8 @@ Da der Schwerpunkt des Programms auf Live-Kultur und der Stärkung lokaler Kultu
 
 Anbietende können sich seit Mitte Mai 2023 [hier](https://storefront.prod.kulturpass.de/seller-registration) registrieren, für die jungen Erwachsenen steht die App voraussichtlich Mitte Juni zum Download bereit. Die Anbietenden werden im Registrierungsprozess datenschutzkonform verifiziert. Die teilnehmenden Kulturanbieter können ihre Veranstaltungen oder Kulturprodukte über elektronische Schnittstellen oder manuell auf der Plattform bereitstellen. Verfassungsfeindliche und indizierte Inhalte werden von der Plattform ausgeschlossen. Um den Umgang mit der Plattform für die Anbietenden so einfach wie möglich zu machen, wird an zusätzlichem Onboarding- und Informationsmaterial gearbeitet.
 
+Um mehr über die verschiedenen Akteure zu erfahren, die für den KulturPass wichtig sind, lesen Sie bitte die Dokumentation zu [Roles and Actors](project-roles-and-actors.md) (nur auf Englisch verfügbar).
+
 Weitere Informationen unter [kulturpass.de](https://kulturpass.de)
 
 ## English
