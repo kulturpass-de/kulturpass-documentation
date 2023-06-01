@@ -94,6 +94,6 @@ This has the following consequences:
 
 The proof of residence (DE: Meldebescheinigung) can be obtained from local authorities. It is not digitally available. The document must be scanned/photographed to digitize it. Accordingly, it cannot easily be verified automatically.
 
-Back to [KulturPass DE - Technical Documentation](README.md)
+Back to [KulturPass- Technical Documentation](README.md)
 
-Back to [KulturPass DE documentation](../README.md)
+Back to [KulturPass documentation](../README.md)

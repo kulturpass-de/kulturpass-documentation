@@ -1,20 +1,20 @@
-# KulturPass DE - Architecture
+# KulturPass - Architecture
 
-The basic architecture of the KulturPass project consists of two development layers:
+The basic architecture of the KulturPass consists of two development layers:
 
 - Frontend systems and applications, including the end user mobile app
 - Backend systems and processes including the necessery connectors and replicators to facilitate integration of internal or external services
 Additionally, a few third-party products, services or interfaces are leveraged, primarily in the context of identity verification.
 ![High-level architecture of the KulturPass DE solution](../images/architecture-01.1.jpg)
 
-This documentation covers the KulturPass mobile app part only. However, those parts of other components and systems that affect the app implementation will be explained as well. 
+This documentation covers the KulturPass mobile app part only. However, those parts of other components and systems that affect the app implementation will be explained as well.
 Hint: Several mentioned functions refer to specific _roles_ in the KulturPass context. To understand the differences, please check a brief description of [Roles and Actors](../project-documentation/project-roles-and-actors.md) in the _Project Documentation_.
 
 ## Frontend layer
 
-### KulturPass DE mobile app
+### KulturPass mobile app
 
-As described in the [Project Documentation](../project-documentation/project-objectives.md) the young people in the role of the **consumer** interact on the cultural marketplace with the vendors of the cultural goods and services. In order to browse the offers and to order their goods, tickets, services... people use the **KulturPass DE mobile app**. In the documentation we will dive deeper into the functions and implementation details, but here is a quick introduction to the main characteristics of the app:
+As described in the [Project Documentation](../project-documentation/project-objectives.md) the young people in the role of the **consumer** interact on the cultural marketplace with the vendors of the cultural goods and services. In order to browse the offers and to order their goods, tickets, services... people use the **KulturPass app**. In the documentation we will dive deeper into the functions and implementation details, but here is a quick introduction to the main characteristics of the app:
 
 - Provided for Android and iOS operating system[^1]
 - Implementation in React Native, a framework for creating UIs that also allows you to use React to create native applications for Android and iOS
@@ -31,21 +31,21 @@ As described in the [Project Documentation](../project-documentation/project-obj
 
 ### Web Storefront
 
-The web storefront 
+The web storefront
 
 - Acts as the layer in front of SAP Customer Data Cloud (CDC) and of SAP Commerce Cloud
 - Implements _Spartacus_ (Composable Storefront) UI elements for handling functions addressing the SAP Customer Data Cloud (CDC) and SAP Commerce Cloud on the backend side of the solution.
 - Major functions of the web storefront:
   - Allows access to maintain user account details and credentials for the KulturPass solution
-  - Receive and handle events 
+  - Receive and handle events
 
 ### Mirakl UI
 
-For the KulturPass project the Mirakl solution provides the shop capability to create the cultural marketplace. Subsequently, the Mirakl UI 
+For the KulturPass the Mirakl solution provides the shop capability to create the cultural marketplace. Subsequently, the Mirakl UI
 
-- Provides an interface to vendors (on different levels) to administer their shops.
+- Provides an interface to vendors (on different levels) to administer their shops
 - Offers the interface to content managers to maintain the categories, catalog structures, account/shop attributes etc. for the marketplace
-- Runs also as the main interface for content managers 
+- Runs also as the main interface for content managers
 - To accomplish these tasks, the Mirakl UI features the following functions:
   - Support shop and account creation
   - Provide configurable registration and administration forms to collect shop attributes and properties
@@ -103,18 +103,18 @@ To find out more about SAP S/4HANA, check out the information on the [S/4HANA we
 
 ### Connectors
 
-On the KulturPass platform, connectors are used to encapsulate external third-party services and systems. They are required to complete the processes on the platform. Basically, at the KulturPass DE marketplace connectors verify identity to authorize admission. See section [Technical Processes/Functions](technical-processes-and-functions.md) for a more detailed technical documentation of the connector function. If you are interested in the organizational embedding of the connectors during registration you may check the explanations in the [Project Processes/Functions](../project-documentation/project-processes-and-functions.md).
+On the KulturPass platform, connectors are used to encapsulate external third-party services and systems. They are required to complete the processes on the platform. Basically, at the KulturPass marketplace connectors verify identity to authorize admission. See section [Technical Processes/Functions](technical-processes-and-functions.md) for a more detailed technical documentation of the connector function. If you are interested in the organizational embedding of the connectors during registration you may check the explanations in the [Project Processes/Functions](../project-documentation/project-processes-and-functions.md).
 
 #### Ident Connector
 
-To verify whether or not the user is eligible to receive KulturPass DE credit, the ident connector is implemented. This connector utilizes the eID service and infrastrutcure of the Bundesdruckerei. This approach allows on the one hand to get proof of identity of the user. On the other hand, we are able to perform an age check based on the atributes.
+To verify whether or not the user is eligible to receive KulturPass credit, the ident connector is implemented. This connector utilizes the eID service and infrastrutcure of the Bundesdruckerei. This approach allows on the one hand to get proof of identity of the user. On the other hand, we are able to perform an age check based on the atributes.
 For identification, an NFC-capable ID is currently required, other approaches to proof identity will be evaluated for later implementation, though.
 
 Find out more in the next section about the [user identification concept](user-identification-concept.md).
 
 #### ELSTER Connector
 
-The ELSTER connector is implemented to facilitate the formal registration of a vendor on the KulturPass DE marketplace. To validate the business (or the vendor, respectively) the cultural provider needs to provide a digital certificate that is otherwise used to submit tax declarations (so called _Organisationszertifikat_). Contrary to personal certificates, they are not linked to individual persons, but to an organization under tax law (corporate entity, company, association).
+The ELSTER connector is implemented to facilitate the formal registration of a vendor on the KulturPass marketplace. To validate the business (or the vendor, respectively) the cultural provider needs to provide a digital certificate that is otherwise used to submit tax declarations (so called _Organisationszertifikat_). Contrary to personal certificates, they are not linked to individual persons, but to an organization under tax law (corporate entity, company, association).
 
 Back to [Technical Documentation](README.md)
 

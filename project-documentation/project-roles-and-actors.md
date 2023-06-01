@@ -1,8 +1,8 @@
-# KulturPass DE - Roles and Actors
+# KulturPass - Roles and Actors
 
 ## Main roles: Vendor and Consumer
 
-Basically, the KulturPass solution shall connect the providers of cultural services, goods, and events (the **vendors**, like museums, stages, movie theaters, book shops etc.) with the young people as **consumers** of those offerings. From the commercial viewpoint, the vendors act in the role of a provider or seller, even if a given offer is for free and will not drain the consumer's credit.
+Basically, the KulturPass shall connect the providers of cultural services, goods, and events (the **vendors**, like museums, stages, movie theaters, book shops etc.) with the young people as **consumers** of those offerings. From the commercial viewpoint, the vendors act in the role of a provider or seller, even if a given offer is for free and will not drain the consumer's credit.
 The solution design defines the following responsibilities and capabilities for these roles:
 
 ### Vendor
@@ -14,10 +14,10 @@ The solution design defines the following responsibilities and capabilities for 
 
 ### Consumer
 
-- Download the KulturPass DE mobile app from the Apple App Store or from the Google Play Store
+- Download the KulturPass app from the Apple App Store or from the Google Play Store
 - Identify and register on the marketplace
 - Retrieve the government-funded personal credit
-- Browse, search, and filter the offers of the vendors leveraging the KuluturPass mobile app
+- Browse, search, and filter the offers of the vendors leveraging the KuluturPass app
 - Reserve cultural goods, services, tickets for events etc. based on the available credit line[^2]
 - Return unused reservations, goods, tickets etc. accroding to the terms and conditions of the vendor
 [^1]: We may provide a prepared list of products for a given product category that can be utilized by the vendor. But this prepared list does not limit the list of products - the vendor is free to add individual products via manual input, CSV upload or API.
@@ -25,7 +25,7 @@ The solution design defines the following responsibilities and capabilities for 
 
 ## Administrative roles
 
-The KulturPass project is **promoted by the German government**, in particular by the _Federal Commissioner for Culture and the Media (BKM)_. On behalf of the BKM, the **operational management** of the project as well as the tasks of supporting the community will be conducted by the [foundation _Digitale Chancen_](https://www.digitale-chancen.de/). For all questions, comments and suggestions, you are welcome to contact the community management via [support@kulturpass.de](mailto:support@kulturpass.de).
+The KulturPass is **promoted by the German government**, in particular by the _Federal Commissioner for Culture and the Media (BKM)_. On behalf of the BKM, the **operational management** of the project as well as the tasks of supporting the community will be conducted by the [foundation _Digitale Chancen_](https://www.digitale-chancen.de/). For all questions, comments and suggestions, you are welcome to contact the community management via [support@kulturpass.de](mailto:support@kulturpass.de).
 
 Important roles to run the project in the back office are:
 
@@ -42,6 +42,6 @@ Important roles to run the project in the back office are:
 - Validation/background checking and approval of vendors
 - Irregular validation of goods/products/services provided via the platform
 
-To get an understanding of the overall objectives of the KulturPass DE project please check the [Project Objectives](project-objectives.md) documentation.
+To get an understanding of the overall objectives of the KulturPass please check the [Project Objectives](project-objectives.md) documentation.
 
 Back to the [Start of Documentation](../README.md)

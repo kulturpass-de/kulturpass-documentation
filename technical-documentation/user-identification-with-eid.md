@@ -55,6 +55,6 @@ The technical flow is illustrated by the following sequence diagram:
 
 ![Technical flow of user identification with eID](../diagrams/seq-identification-flow-v1.svg)
 
-Back to [KulturPass DE - Technical Documentation](README.md)
+Back to [KulturPass- Technical Documentation](README.md)
 
-Back to [KulturPass DE documentation](../README.md)
+Back to [KulturPass documentation](../README.md)

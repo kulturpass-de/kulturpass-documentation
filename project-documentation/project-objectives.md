@@ -33,6 +33,6 @@ The platform for registration by culture providers is available since mid-May 20
 
 For more information please see [kulturpass.de](https://kulturpass.de)
 
-To read more about the various personas that are important for the KulturPass project, please check the documentation for [Roles and Actors](project-roles-and-actors.md). 
+To read more about the various personas that are important for the KulturPass, please check the documentation for [Roles and Actors](project-roles-and-actors.md). 
 
 Back to the [Start of Documentation](../README.md)
