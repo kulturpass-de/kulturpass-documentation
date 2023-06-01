@@ -83,7 +83,7 @@ The project documentation will be continuously updated in the following document
 Major focus of this GitHub project is the technical documentation for the KulturPass project in Germany. Here we describe the architecture, design and implementation of the consumer component - the KulturPass app. Please understand that it is neither technically possible nor legally permitted to disclose implementation details or internal configurations of the leveraged commercial backend solutions and products, though.
 
 The below-mentioned technical documents are intended to provide in-depth details for a technical community. We try our best that this documentation represents the most recent state of the architecture, design and implementation. Based on picture given by the _Project Documentation_ (see above) we start with documenting the high-level architecture and the technical components. This architecture and the underlying concepts might change or evolve over time for various reasons (legal or technological dependencies, changing or new requirements, new actors/processes/use cases etc.)
-Since we expect a bunch of abbreviations, we will also create a glossary - see below. 
+Since there are a bunch of abbreviations, we have also created a glossary - see below.
 
 Again: We appreciate any feedback to all elements of this project scope document; questions, hints, remarks, proposals, feedback, and recommendations, even new use cases or feature requests from our community are welcome! We do our best to consolidate, discuss, prioritize and document them in the product review cycles to address your opinions accordingly.
 
