@@ -3,7 +3,7 @@
 The KulturPass project basically implements a cultural marketplace where the KulturPass app users consume the goods and services.
 For the vendors the following processes and functions are relevant on the platform:
 
-- Vendor Onboarding (including the steps: [vendor identification and registration](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-shop-settings), initial product maintenance, initial offer creation)
+- Vendor Onboarding (including the steps: [vendor identification and registration](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-product-maintenance), [initial offer creation]())
 - Order Management including cancellation and returns
 - Financial Processes
 
@@ -35,5 +35,19 @@ From the shop owner's viewpoint, there are three important settings to be mainta
 - Bank account details; otherwise money transfer from BMK to the shop owner will fail.
 
 If these tasks are perfomed successfully, the vendor can start entering the product and offer data into the system. There is also a user-focused article for first steps of the vendors in the [Help Center](https://service.kulturpass.de/help/de-de/6-registrierung-fur-anbietende/125-ubersicht-erste-schritte-nach-der-registrierung) (German language only).
+
+## Initial product maintenance
+
+Selling via KulturPass requires a shop owner at least to place offers at the marketplace. Those offers are always based on product master data.
+The basic concept includes, that product master data - once published on Mirakl and synchronized with Commerce - can be shared across  all registered shops on the marketplace. (In principle, the same product could be entered multiple times, but there are technical measures in place to prioritize the one record (called master) that defines the attribute setting utilized for all offers based on this product.)
+Minimum product settings must include the basic attributes
+- Product category assignment
+- SHOP_SKU (an unique private ID) and a descriptive name
+- Photography or picture, that gives a visual impression of the product
+- Verbal description. This description can be utilized to convey also supplementary details like venue location, URLs for external, or how the pick-up procedure is intended to be, which makes the description a substantial part of the offer visible in the KulturPass mobile app.
+
+ Product creation can either be performed via file import or via manual product creationas first (optional) step during offer creation.
+
+## Initial offer creation
 
 Back to [Project documentation](README.md)
