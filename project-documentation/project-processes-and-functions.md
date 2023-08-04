@@ -23,7 +23,9 @@ To provide an attractive markteplace for the KulturPass users, it is crucial to 
 2. EU questionnaire
 3. ELSTER registration process with the digital certificate of the seller organization. To find more details about the technical registration, check the section [Seller Registration with ELSTER](https://github.com/kulturpass-de/kulturpass-documentation/blob/main/technical-documentation/seller-registration-with-elster.md) 
 
-The registration procedure also asks for initial name of the marketplace shop and creates the vendor's shop in the background. Once the registration process is completed successfully, the seller can access the shop and start with configuration of basic settings.
+The registration procedure also asks for initial name of the marketplace shop and creates the vendor's shop in the background. A user-oriented description and FAQ for this procedure can be found in the [Help Center](https://service.kulturpass.de/help/de-de/6-registrierung-fur-anbietende) (German language only).
+
+Once the registration process is completed successfully, the seller can access the shop and start with configuration of basic settings.
 
 ## Initial shop settings
 
@@ -32,6 +34,6 @@ From the shop owner's viewpoint, there are three important settings to be mainta
 - Accessibility information for the shop location
 - Bank account details; otherwise money transfer from BMK to the shop owner will fail.
 
-If these tasks are perfomed successfully, the vendor can start entering the product and offer data into th e system. 
+If these tasks are perfomed successfully, the vendor can start entering the product and offer data into the system. There is also a user-focused article for first steps of the vendors in the [Help Center](https://service.kulturpass.de/help/de-de/6-registrierung-fur-anbietende/125-ubersicht-erste-schritte-nach-der-registrierung) (German language only).
 
 Back to [Project documentation](README.md)
