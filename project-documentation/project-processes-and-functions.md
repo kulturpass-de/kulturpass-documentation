@@ -3,7 +3,7 @@
 The KulturPass project basically implements a cultural marketplace where the KulturPass app users consume the goods and services.
 For the vendors the following processes and functions are relevant on the platform:
 
-- Vendor Onboarding (including the steps: [vendor identification and registration](project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-product-maintenance), [initial offer creation](project-processes-and-functions.md#inital-offer-creation))
+- Vendor Onboarding (including the steps: [vendor identification and registration](project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](project-processes-and-functions.md#initial-product-maintenance), [initial offer creation](project-processes-and-functions.md#inital-offer-creation))
 - Order Management including cancellation and returns
 - Financial Processes
 
