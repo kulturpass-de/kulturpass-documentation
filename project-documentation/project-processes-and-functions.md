@@ -69,4 +69,4 @@ Back to [Project documentation](README.md)
 
 Follow up the [Technical documentation](../technical-documentation/README.md)
 
-Back to [start of KulturPass documentation](../../README.md)
+Back to [start of KulturPass documentation](../README.md)
