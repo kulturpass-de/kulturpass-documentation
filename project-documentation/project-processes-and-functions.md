@@ -3,7 +3,7 @@
 The KulturPass project basically implements a cultural marketplace where the KulturPass app users consume the goods and services.
 For the vendors the following processes and functions are relevant on the platform:
 
-- Vendor Onboarding (including the steps: [vendor identification and registration](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-product-maintenance), [initial offer creation]())
+- Vendor Onboarding (including the steps: [vendor identification and registration](project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](https://github.com/kulturpass-de/kulturpass-documentation/edit/feature/documentation-update/project-documentation/project-processes-and-functions.md#initial-product-maintenance), [initial offer creation](project-processes-and-functions.md#inital-offer-creation))
 - Order Management including cancellation and returns
 - Financial Processes
 
@@ -59,9 +59,9 @@ The basic KulturPass concept is that only those articles can be reserved/purchas
 
 Subsequently, for a vendor it is crucial to create offers, once the products are globally available on the marketplace. When creating an offer, a product must be referred first. The Mirakl marketplace place system provides a number of of attributes that can be set for the offer. However, the KulturPass only requires the price and the available quantity of the offer. For better store and stock management, a private SKU can be assigned to the offer and a quantity warning can be configured as threshold. 
 
-**Note:** The offer description will _not yet_ displayed at any time. Also the KulturPass implementation and term & condition expect the user to collect the article onsite; subsequently, shipping costs cannot be charged. This also applies to any kind of fees, markups, taxes, and other surcharges - they all have to be zero, which means: The given price shown in the KulturPass mobile app is a total price. 
+**Note:** The offer description will _not yet_ displayed at any time. Also the KulturPass implementation and _terms & conditions_ expect the user to collect the article onsite; subsequently, shipping costs cannot be charged. This also applies to any kind of fees, markups, taxes, and other surcharges - they all have to be zero, which means: The given price shown in the KulturPass mobile app is a total price for the user. 
 
-For better understanding the internal representation of products and offers in the Mirakl marketplace system there is a more deeper look into technical requirements and restrictions in the article [Technical product and offer maintenance](../technical-documentation/technical-product-and-offer-maintenance.md).
+Vendors may have a further look on the user-centric desciption of topics regardin offer creation in the [Help Center](https://digitale-chancen.zammad.com/help/de-de/14-angebote-erstellen) (German language only). For better understanding the internal representation of products and offers in the Mirakl marketplace system there is a more deeper look into technical requirements and restrictions in the article [Technical product and offer maintenance](../technical-documentation/technical-product-and-offer-maintenance.md).
 
 ##
 
