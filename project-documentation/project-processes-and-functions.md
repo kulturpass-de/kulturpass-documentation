@@ -46,8 +46,27 @@ Minimum product settings must include the basic attributes
 - Photography or picture, that gives a visual impression of the product
 - Verbal description. This description can be utilized to convey also supplementary details like venue location, URLs for external, or how the pick-up procedure is intended to be, which makes the description a substantial part of the offer visible in the KulturPass mobile app.
 
- Product creation can either be performed via file import or via manual product creationas first (optional) step during offer creation.
+**Note:** The product itself does not carry attributes for the price and for the available stock quantity. Those attributes need to be set as part of the [offer creation procedure](project-processes-and-functions.md#initial-offer-creation). 
+
+Product creation can either be performed via file import or via manual product creationas first (optional) step during offer creation. As soon as a product was validated by the Mirakl marketplace system, it get's an internal unique ID assigned (called the _product ID_) which becaomes an important link for the later offer creation. For better understanding the internal representation of products and offers in the Mirakl marketplace system there is a more deeper look into technical requirements and restrictions in the article [Technical product and offer maintenance](../technical-documentation/technical-product-and-offer-maintenance.md).
 
 ## Initial offer creation
 
+The basic KulturPass concept is that only those articles can be reserved/purchased, that have fulfill three conditions:
+1. There is an valid product record published on the marketplace for the respective article.
+2. Also, there ar valid offers (at least one offer) for this product set.
+3. The available quantity for the offer is greater or equal 1.
+
+Subsequently, for a vendor it is crucial to create offers, once the products are globally available on the marketplace. When creating an offer, a product must be referred first. The Mirakl marketplace place system provides a number of of attributes that can be set for the offer. However, the KulturPass only requires the price and the available quantity of the offer. For better store and stock management, a private SKU can be assigned to the offer and a quantity warning can be configured as threshold. 
+
+**Note:** The offer description will _not yet_ displayed at any time. Also the KulturPass implementation and term & condition expect the user to collect the article onsite; subsequently, shipping costs cannot be charged. This also applies to any kind of fees, markups, taxes, and other surcharges - they all have to be zero, which means: The given price shown in the KulturPass mobile app is a total price. 
+
+For better understanding the internal representation of products and offers in the Mirakl marketplace system there is a more deeper look into technical requirements and restrictions in the article [Technical product and offer maintenance](../technical-documentation/technical-product-and-offer-maintenance.md).
+
+##
+
 Back to [Project documentation](README.md)
+
+Follow up the [Technical documentation](../technical-documentation/README.md)
+
+Back to [start of KulturPass documentation](../../README.md)
