@@ -9,6 +9,8 @@ This branch of the documentation maily focusses on the technical implementation 
   * [Seller Registration with Elster](seller-registration-with-elster.md)
   * [User Identification Concept](user-identification-concept.md)
   * [User Identification with eID](user-identification-with-eid.md)
+  * [Technical product and offer maintenance](technical-product-and-offer-maintenance.md)
+  * [Technical Order Management processes](technical-order-management-processes.md)
 * [KulturPass - Technical Interfaces](technical-interfaces.md)
 
 Back to start of [KulturPass documentation](../README.md)
