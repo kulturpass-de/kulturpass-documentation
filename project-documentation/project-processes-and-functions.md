@@ -4,7 +4,7 @@ The KulturPass project basically implements a cultural marketplace where the Kul
 For the vendors the following processes and functions are relevant on the platform:
 
 - Vendor Onboarding (including the steps: [vendor identification and registration](project-processes-and-functions.md#vendor-identification-and-registration), [initial shop settings](project-processes-and-functions.md#initial-shop-settings), [initial product maintenance](project-processes-and-functions.md#initial-product-maintenance), [initial offer creation](project-processes-and-functions.md#initial-offer-creation))
-- Order Management including cancellation and returns
+- [Order Management](project-processes-and-functions.md#order-management) including cancellation and returns
 - Financial Processes
 
 The young people, the users of the KulturPass app, are the consumers of the goods and services offered on the KulturPass marketplace. This mobile app implements a number of capabilities and functions for the youth:
@@ -63,6 +63,21 @@ Subsequently, for a vendor it is crucial to create offers, once the products are
 
 Vendors may have a further look on the user-centric desciption of topics regardin offer creation in the [Help Center](https://digitale-chancen.zammad.com/help/de-de/14-angebote-erstellen) (German language only). For better understanding the internal representation of products and offers in the Mirakl marketplace system there is a more deeper look into technical requirements and restrictions in the article [Technical product and offer maintenance](../technical-documentation/technical-product-and-offer-maintenance.md).
 
+## Order management
+
+Basically, the order management process splits into three major functions: 
+- Fulfillment process for an order (based on the reservation)
+- Cancellation process either from the teenager or from the seller
+- Refunds because of returns or cancellations
+
+While the order management will be initiated by the teenager's reservation on the (mobile) KulturPass app, the fulfillment process will be solely performed between the Mirakl system and the system of the vendor:
+![Generic overview of the fulfillment process in Order Management](../images/Fulfillment-Process-Overview.jpg)
+During the fulfillment process the order passed various state-transitions until it reaches the final state. Those intermediate technical states are explained in more detail within section [Technical Order Management process](../technical-documentation/technical-order-management-processes.md). From the project view it is important, that an order must reach one of three final states:
+- _Received_; when the teenager has collected and received, what was initially reserved/ordered
+- _Rejected_; when the order could not be fulfilled and was refused by the seller
+- _Refunded_[^1]; when the order could not be fulfilled and was reimbursed by the seller
+
+[^1]: Obviously, a partly refund may also happen in case the order value is less than a Wertcode voucher value. However, in this case, after refunding the remaining value the vendor _**must**_ mark the transaction as "collected", so the transaction automatically reaches the "_Received_" status Mirakl.
 ##
 
 Back to [Project documentation](README.md)
