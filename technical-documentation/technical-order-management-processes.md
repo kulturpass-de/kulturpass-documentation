@@ -3,24 +3,29 @@
 During the order management and fulfillment process, the transaction passed several states; either predefined by the Mirakl marketplace solution or intrinsically created by the meaning of attributes/custom fields of an order. The utilized stages and the possible transitions are shown in the following diagram and explained afterwards.
 <!-- hier Bilder und Beschreibung des Order management und Teile der API doku einfügen -->
 ![State-transition diagram of KulturPass order transactions in Mirakl](../images/technical-Mirakl-state-transitions.jpg)
-_Waiting for acceptance_ - Each order transaction starts with this status. Basically, this status reflects, that an order was triggered by an teeanger and the respective offer value will be blocked from the users budget. Also, the order transaction object now is generated, residing in the Mirakl system. This order comes with a set of details describing the tansaction. From the processing perspective, now the turn is on the shop to fulfill this reservation. The shop gets notified by the Mirkl system.
+**_Waiting for acceptance_** - Each order transaction starts with this status. Basically, this status reflects, that an order was triggered by an teeanger and the respective offer value will be blocked from the users budget. Also, the order transaction object now is generated, residing in the Mirakl system. This order comes with a set of details describing the tansaction. From the processing perspective, now the turn is on the shop to fulfill this reservation. The shop gets notified by the Mirkl system.
 
-_Accepted_ - The respective shop now may or may not accept the incoming order. In case the shop accepts the reservtion, the fulfillment process starts with this acceptance.
+**_Accepted_** - The respective shop now may or may not accept the incoming order. In case the shop accepts the reservtion, the fulfillment process starts with this acceptance.
 
-_Rejected_ - There might be a good reason, not to fulfill an incoming reservation. In that case, the shop owner can reject the order transaction actively. The transaction then will stop here and the teenager user gets notified. It is importand to understand, that the shop owner has to do one more step: Once the order was rejected, the blocked budget has to be released by performing the "full refund" task (either manually or via API[^1]). Subsequently, the final state of the rejected transaction should be _Refunded_.
+**_Rejected_** - There might be a good reason, not to fulfill an incoming reservation. In that case, the shop owner can reject the order transaction actively. The transaction then will stop here and the teenager user gets notified. It is importand to understand, that the shop owner has to do one more step: Once the order was rejected, the blocked budget has to be released by performing the "full refund" task (either manually or via API[^1]). Subsequently, the final state of the rejected transaction should be _Refunded_.
 
 If the teenager decides to cancel a reservation at an early stage of the transaction, the shop owner will get notified as well. Obviously, there is no need to fulfill the transaction anymore. Therefore, the only task to perform is the "full refund", with leads to the final state _Refunded_ for the original order transaction.
 
 In the rare case that the addressed shop (that received the reservation) does not answer the transaction _Waiting for acceptance_, the KulturPass marketplace operations teams assumes that the vednro shop is currently out of service. That's why, 
 the order transaction will timeout automatically after 5 days waiting for acceptance. In that case, Mirakl is customized to automatically reject the transactionand will  refund the offer values to the teenagers KulturPass budget. Additionally, the marketplace control logs a timeout event for that shop[^2]. 
 
-_Shipping in progress_ - Once, an order transaction was accepted by the respective shop, the fulfillment process starts. The shop may need to acquire the ordered article first from a provider (supplier or dealer) first. Regardless of the need of that kind of shipping, in Mirakl the transaction will be set automatically to status _Shippig in progress_; there is no need to do that on the shop side. However, this status is a precondition for the next important state:
+**_Shipping in progress_** - Once, an order transaction was accepted by the respective shop, the fulfillment process starts. The shop may need to acquire the ordered article first from a provider (supplier or dealer) first. Regardless of the need of that kind of shipping, in Mirakl the transaction will be set automatically to status _Shippig in progress_; there is no need to do that on the shop side. However, this status is a precondition for the next important state:
 
-_Shipped_[^3] - By setting this status on a transaction in Mirakl, the shop owner informs the ordering teenager that the reserved artikel is ready to be picked up. This status is important for vaious reasons:
+**_Shipped_**[^3] - By setting this status on a transaction in Mirakl, the shop owner informs the ordering teenager that the reserved artikel is ready to be picked up. This status is important for vaious reasons:
 - The ordering teenager now knows that the article can be picked up in the physical store.
 - This state-transition starts the timer for the pick-up. if te atricle was **not** picked up within 10 days from the "Shipped" date/time, the order needs to be reversed and refunded.
 - As soon as the _Shipped_ status was setr by the shop, the button for "Cancelation" in the transaction details screen of the users KulturPass app disappears, so the teeanager is unable to cacled the transaction any longer.  
-  
+
+**_Received_** - The idea of this status is to confirm, the KulturPass user (teenager) has physically received, whatever was previously ordered (a book, an instrument, a Vinyl record etc.). So, the vendor of the cultural good needs to actively set the "collected" flag of the order transaction to allow Mirakl to transition into the "Received" status. This status is essential für the vendor: Only order transactions that are in the received status with the value "true" in property "collected" will be aggregated for later reimbursement by the foundation Digitale Chancen. If a transaction does not reach the state "Received" no money will be transferred to the vendor for this particular transaction!
+From the processing perspective the fulfillment of the order transaction has been successfully accomplished here. 
+
+**_Closed_** - Whenever a final processing status was achieved, the transaction will be post-prcessed, meaning: Either the money will be reimbursed to the vendor or the transaction value will be refunded to the teenager. Once the post-processing is done by the respective systems, Mirakl closes the order transaction with this status. 
+
 ##
 Back to [Technical documentation](README.md)
 
